@@ -1,0 +1,52 @@
+.slick-bg{
+    box-shadow: 20px 20px 50px white;
+}
+
+.slick-prev:before, .slick-next:before {
+    /* font-family: monospace; */
+    font-size: 41px;
+    line-height: 0;
+    opacity: .9;
+    display: flex;
+    justify-content: center;
+    color: #6B6B6B;
+}
+
+.slick-prev {
+    left: 3px;
+}
+.slick-next {
+    right: 5px;
+}
+
+.adjust-width{
+    width: 75%;
+}
+
+@media screen and (max-width: 725px) {
+    .adjust-width {
+      width: 100%;
+    }
+}
+
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 13px !important;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: #f4ac1f !important;;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .slick-dots li button:hover, .slick-dots li button:focus {
+    outline: none;
+    color: #f4ac1f !important;;
+  }
